@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aezyleigh's Slam Book</title>
+    <meta name="description" content="Fill-in this form to be part of Aezyleigh's slam book entries!.">
+    <meta charset="UTF-8">
+</head>
+      
+<body>
+  
+  <section>
+    <img src="https://github.com/Aezyleigh/slambook/blob/main/Welcome%20Banner.png?raw=true" alt="Webpage Greetings" width="200">
+    <p>WHAT IS A SLAMBOOK?</p>
+    <video width="320" height="240" controls>
+      <source src="https://github.com/Aezyleigh/slambook/raw/refs/heads/main/50%20Fun%20Slambook%20Questions.mp4" type="video/mp4"> Your browser does not support this video file. </video>
+      </section> <hr>
+  
+ <section>
+   <p>
+   <h2>ALL ABOUT YOU!</h2>
+     <button onclick="alert('Hello! This is Aezy. Please fill up this form.')">CLICK ME</button> <br><br>
+   
+    <form>
+      <label for="name">NAME:</label>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="nickname">NICKNAME:</label>
+      <input type="text" id="nickname" name="nickname"><br><br>
+      <p>YOU ARE MY:</p>
+      <input type="radio" id="friend" name="relation" value="Friend">
+      <label for="friend">Friend</label><br>
+      <input type="radio" id="classmate" name="relation" value="Classmate">
+      <label for="classmate">Classmate</label><br>
+      <input type="radio" id="other" name="relation" value="Other">
+      <label for="other">Other</label><br><br>
+        
+      <label for="age">AGE:</label>
+      <input type="number" id="age" name="age" min="10" max="100"><br><br>
+        
+      <label for="zodiac">ZODIAC SIGN:</label>
+      <select id="zodiac" name="zodiac">
+        <option value="">--Select--</option>
+        <option value="Aries">Aries</option>
+        <option value="Taurus">Taurus</option>
+        <option value="Gemini">Gemini</option>
+        <option value="Cancer">Cancer</option>
+        <option value="Leo">Leo</option>
+        <option value="Virgo">Virgo</option>
+        <option value="Libra">Libra</option>
+        <option value="Scorpio">Scorpio</option>
+        <option value="Sagittarius">Sagittarius</option>
+        <option value="Capricorn">Capricorn</option>
+        <option value="Aquarius">Aquarius</option>
+        <option value="Pisces">Pisces</option>
+      </select><br><br>
+      
+      <p>SEX:</p>
+      <input type="radio" id="male" name="sex" value="Male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="sex" value="Female">
+      <label for="female">Female</label><br><br>
+      
+      <label for="contact">CONTACT:</label>
+      <input type="text" id="contact" name="contact" pattern="[0-9]{11}" placeholder="e.g. 09123456789"><br><br>
+
+      <label for="email">EMAIL:</label>
+      <input type="email" id="email" name="email" placeholder="aezyleigh@gmail.com"><br><br>
+      
+      <fieldset>
+        <legend>ADDRESS:</legend>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"><br><br>
+
+        <label for="province">Province:</label>
+        <input type="text" id="province" name="province"><br><br>
+
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip"><br><br>
+      </fieldset>
+          </form>
+          </section> <hr>
+      
+   <h2>MORE ABOUT YOU!</h2>
+   <button onclick="alert('Sorry, it's a lot. But you're almost there, my friend!.')">CLICK ME</button> <br><br>
+   
+   <form>
+     <h3>WHAT ARE YOUR FAVORITE...</h3>
+     
+     <p>HOBBIES:</p>
+    <input type="checkbox" id="reading" name="hobbies" value="Reading">
+    <label for="reading">Reading</label><br>
+    <input type="checkbox" id="drawing" name="hobbies" value="Drawing">
+    <label for="drawing">Drawing</label><br>
+    <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
+    <label for="gaming">Gaming</label><br>
+    <input type="checkbox" id="sports" name="hobbies" value="Sports">
+    <label for="sports">Sports</label><br>
+    <input type="checkbox" id="Baking" name="hobbies" value="Baking">
+    <label for="baking">Baking</label><br>
+    <input type="checkbox" id="Watching Movies" name="hobbies" value="Wayching Movies">
+    <label for="watching movies">Watching Movies</label><br>
+    <input type="checkbox" id="Other" name="hobbies" value="Other">
+    <label for="other">Other</label><br>
+    <br><br>
+    
+    <label for="food">FOOD TYPE:</label>
+    <select id="food" name="food">
+      <option value="">--Select--</option>
+      <option value="Filipino">Filipino</option>
+      <option value="Italian">Italian</option>
+      <option value="Japanese">Japanese</option>
+      <option value="Korean">Korean</option>
+    </select>
+    <br><br>
+      
+    <label for="drink">DRINK:</label>
+    <select id="drink" name="drink">
+      <option value="">--Select--</option>
+      <option value="Water">Water</option>
+      <option value="Juice">Juice</option>
+      <option value="Soda">Soda</option>
+      <option value="Milk Tea">Milk Tea</option>
+    </select>
+    <br><br>
+      
+    <label for="song">SONG:</label>
+    <input type="text" id="song" name="song">
+    <br><br>
+      
+    <label for="movie">MOVIE:</label>
+    <input type="text" id="movie" name="movie" value="The Avengers">
+    <br><br>
+      
+    <label for="show">SHOW:</label>
+    <input type="text" id="show" name="show" value="Friends">
+    <br><br>
+      
+    <label for="social">SOCIAL MEDIA APP:</label>
+    <input type="text" id="social" name="social" list="apps">
+    <datalist id="apps">
+      <option value="Facebook">
+      <option value="Instagram">
+      <option value="TikTok">
+      <option value="Twitter">
+    </datalist>
+    <br><br>
+      
+    <label for="subject">SUBJECT:</label>
+    <input type="text" id="subject" name="subject" placeholder="e.g. Math, Science">
+    <br><br>
+    
+    <label for="number">NUMBER:</label>
+    <input type="text" id="number" name="number" maxlength="2">
+    <br><br>
+      
+    <label for="pet">PET:</label>
+    <input type="text" id="pet" name="pet" list="pets">
+    <datalist id="pets">
+      <option value="Dog">
+      <option value="Cat">
+      <option value="Rabbit">
+      <option value="Bird">
+    </datalist>
+    <br><br>
+      
+    <p>WHAT ARE YOUR THREE DREAM JOBS?</p>
+    <input type="text" id="dream1" name="dream1"><br><br>
+   <input type="text" id="dream2" name="dream2"><br><br>
+    <input type="text" id="dream3" name="dream3"><br><br>
+      
+   <label for="message">ANY MESSAGE FOR ME?</label><br>
+    <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..."></textarea>
+    <br><br>
+    
+    <input type="submit" value="SUBMIT">
+  </form>
+</section>
+
+</body>
+</html>
